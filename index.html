@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Black Jack</title>
+        <link rel="stylesheet" href="blackjack.css">
+        <script src="blackjack.js"></script>
+    </head>
+
+    <body>
+        <h2>Противник: <span id="dealer-sum"></span></h2>
+        <div id="dealer-cards">
+            <img id="hidden" src="./cards/BACK.png">
+        </div>
+
+        <h2>Вы: <span id="your-sum"></span></h2>
+        <div id="your-cards"></div>
+
+        <br>
+        <button id="hit">Взять</button>
+        <button id="stay">Пас</button>    
+        <p id="results"></p>
+      <div class="rules">Цель игры — набрать 21 очко или близкую к этому сумму. Выигрывает игрок, набравший большую сумму. Если игрок набирает сумму очков, превышающую 21, он проигрывает. Если сумма очков на картах противника больше, чем 21, то игрок выигрывает.</div>
+    </body>
+</html>
